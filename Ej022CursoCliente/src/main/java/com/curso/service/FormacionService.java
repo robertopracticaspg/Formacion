@@ -7,8 +7,8 @@ import com.curso.model.Formacion;
 
 public interface FormacionService {
 	
-List<Formacion> listaCursos();
+	List<Formacion> listaCursos();
 	
-	void altaCurso(Formacion form);
+	void altaCurso(Formacion form, int codCurso);
 	
 }
