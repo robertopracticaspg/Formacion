@@ -44,8 +44,7 @@ public class FormacionServiceImpl implements FormacionService {
 		public void altaCurso (Formacion form) {
 			
 			CursoAux curso = new CursoAux();
-			curso.setDuracion(form.getAsignaturas()*10);
-			//curso.setCodCurso(curso.getCodCurso());
+			curso.setDuracion(form.getAsignaturas()*10);			
 			curso.setNombre(form.getCurso());
 			curso.setPrecio((int) form.getPrecio());
 			
